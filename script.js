@@ -25,7 +25,8 @@ const users = [
     name: "Zainab Ali",
     email: "zainab@example.com",
     city: "Multan",
-    img: "./images/Zenab.jpg"
+    img: "./images/Zenab.jpg",
+    cell: "0123456789"
   },
   {
     name: "Usman Qureshi",
@@ -42,13 +43,13 @@ const container = document.getElementById("cardContainer");
 // Loop through array and create cards
 users.forEach(user => {
   let card = document.createElement("div");
-  card.style.border = "8px groove #cccc";
+  card.style.border = "8px ridge #accc";
   card.style.padding = "10px";
   card.style.borderRadius = "10px";
   card.style.width = "250px";
     card.style.textAlign = "center";
-    card.style.background = "pink"
-    card.style.boxShadow ="5px 5px 8px 0.5px grey"
+    card.style.background = "#abbbcc"
+    card.style.boxShadow ="2px 0px 8px 0.2px grey"
 
   card.innerHTML = `
     <img src="${user.img}" width="100" style="border-radius: 50%;" />
@@ -56,8 +57,10 @@ users.forEach(user => {
     <p><strong>Email:</strong> ${user.email}</p>
     <p><strong>City:</strong> ${user.city}</p>
     <p>Cell: ${user.cell}</p>
+    <h4>By M ILYAS: 343474</h4>
     
   `;
 
   container.appendChild(card);
 });
+
