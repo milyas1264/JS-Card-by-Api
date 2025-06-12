@@ -4,19 +4,22 @@ const users = [
     name: "Ali Raza",
     email: "ali@example.com",
     city: "Lahore",
-    img: "./images/AliRaza.jpg"
+    img: "./images/AliRaza.jpg",
+    cell: "0123456789"
   },
   {
     name: "Fatima Khan",
     email: "fatima@example.com",
     city: "Karachi",
-    img: "./images/Fatima.jpg"
+    img: "./images/Fatima.jpg",
+    cell: "0123456789"
   },
   {
     name: "Ahmed Bashir",
     email: "ahmed@example.com",
     city: "Islamabad",
-    img: "./images/Ahmed.jpg"
+    img: "./images/Ahmed.jpg",
+    cell: "0123456789"
   },
   {
     name: "Zainab Ali",
@@ -28,7 +31,8 @@ const users = [
     name: "Usman Qureshi",
     email: "usman@example.com",
     city: "Faisalabad",
-    img: "./images/Usman,jpg"
+    img: "./images/Usman.jpg",
+    cell: "0123456789"
   }
 ];
 
@@ -51,6 +55,8 @@ users.forEach(user => {
     <h3>${user.name}</h3>
     <p><strong>Email:</strong> ${user.email}</p>
     <p><strong>City:</strong> ${user.city}</p>
+    <p>Cell: ${user.cell}</p>
+    
   `;
 
   container.appendChild(card);
