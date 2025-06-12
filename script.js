@@ -4,31 +4,31 @@ const users = [
     name: "Ali Raza",
     email: "ali@example.com",
     city: "Lahore",
-    img: "https://randomuser.me/api/portraits/men/75.jpg"
+    img: "./images/AliRaza.jpg"
   },
   {
     name: "Fatima Khan",
     email: "fatima@example.com",
     city: "Karachi",
-    img: "https://randomuser.me/api/portraits/women/65.jpg"
+    img: "./images/Fatima"
   },
   {
     name: "Ahmed Bashir",
     email: "ahmed@example.com",
     city: "Islamabad",
-    img: "https://randomuser.me/api/portraits/men/35.jpg"
+    img: "./images/Ahmed"
   },
   {
     name: "Zainab Ali",
     email: "zainab@example.com",
     city: "Multan",
-    img: "https://randomuser.me/api/portraits/women/45.jpg"
+    img: "./images/Zenab"
   },
   {
     name: "Usman Qureshi",
     email: "usman@example.com",
     city: "Faisalabad",
-    img: "https://randomuser.me/api/portraits/men/25.jpg"
+    img: "./images/Usman"
   }
 ];
 
