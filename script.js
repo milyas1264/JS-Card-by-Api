@@ -10,25 +10,25 @@ const users = [
     name: "Fatima Khan",
     email: "fatima@example.com",
     city: "Karachi",
-    img: "./images/Fatima"
+    img: "./images/Fatima.jpg"
   },
   {
     name: "Ahmed Bashir",
     email: "ahmed@example.com",
     city: "Islamabad",
-    img: "./images/Ahmed"
+    img: "./images/Ahmed.jpg"
   },
   {
     name: "Zainab Ali",
     email: "zainab@example.com",
     city: "Multan",
-    img: "./images/Zenab"
+    img: "./images/Zenab.jpg"
   },
   {
     name: "Usman Qureshi",
     email: "usman@example.com",
     city: "Faisalabad",
-    img: "./images/Usman"
+    img: "./images/Usman,jpg"
   }
 ];
 
